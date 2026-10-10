@@ -1,0 +1,135 @@
+[
+  {
+    "id": "courses",
+    "label": "Courses & Fees – Enroll on WhatsApp",
+    "url": "https://wa.me/923182166443?text=Assalam%20o%20Alaikum%21%20I%20want%20to%20enroll%20in%20a%20German%20course%20at%20Deutsch%20F%C3%BCr%20Alle.",
+    "icon": "courses",
+    "note": "A1 Crash (1 month) – 15,000 PKR\nA1 Super Intensive (1.5 months) – 18,000 PKR\nA1 Normal Track (2 months) – 25,000 PKR\nA2 (2–2.5 months) – 30,000 PKR\nA1+A2 Combined (3–3.5 months) – 40,000 PKR"
+  },
+  {
+    "id": "instagram",
+    "label": "Instagram",
+    "url": "https://instagram.com/deutschfuraalle",
+    "icon": "instagram"
+  },
+  {
+    "id": "threads",
+    "label": "Threads",
+    "url": "https://www.threads.net/@deutschfuraalle",
+    "icon": "threads"
+  },
+  {
+    "id": "tiktok",
+    "label": "TikTok",
+    "url": "https://www.tiktok.com/@deutschfuraalle",
+    "icon": "tiktok"
+  },
+  {
+    "id": "youtube",
+    "label": "YouTube",
+    "url": "https://www.youtube.com/@deutschfuraalle",
+    "icon": "youtube"
+  },
+  {
+    "id": "facebook",
+    "label": "Facebook",
+    "url": "https://www.facebook.com/profile.php?id=61561997951415",
+    "icon": "facebook"
+  },
+  {
+    "id": "pinterest",
+    "label": "Pinterest",
+    "url": "https://www.pinterest.com/deutschfuraalle",
+    "icon": "pinterest"
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/company/deutsch-f%C3%BCr-alle",
+    "icon": "linkedin"
+  },
+  {
+    "id": "spotify",
+    "label": "Podcast: German Listening Practice",
+    "url": "https://podcasters.spotify.com/pod/show/deutsch-fr-alle7",
+    "icon": "spotify"
+  },
+  {
+    "id": "apple-podcasts",
+    "label": "Apple Podcasts",
+    "url": "https://podcasts.apple.com/us/podcast/deutsch-f%C3%BCr-alle-german-listening-practice/id6821308442",
+    "icon": "apple-podcasts"
+  },
+  {
+    "id": "amazon-music",
+    "label": "Amazon Music",
+    "url": "",
+    "icon": "amazon-music"
+  },
+  {
+    "id": "whatsapp",
+    "label": "WhatsApp",
+    "url": "https://wa.me/923182166443",
+    "icon": "whatsapp"
+  },
+  {
+    "id": "whatsapp-channel",
+    "label": "WhatsApp Channel",
+    "url": "https://whatsapp.com/channel/0029VarDyCEDuMRlBEUo9i2v",
+    "icon": "whatsapp"
+  },
+  {
+    "id": "email",
+    "label": "Email us",
+    "url": "mailto:deutschfuraalle@gmail.com",
+    "icon": "email"
+  },
+  {
+    "id": "workbook",
+    "label": "Free A1 Workbook",
+    "url": "",
+    "icon": "book"
+  },
+  {
+    "id": "shop",
+    "label": "Shop (Gumroad)",
+    "url": "",
+    "icon": "shop"
+  },
+  {
+    "id": "udemy",
+    "label": "Udemy Course",
+    "url": "",
+    "icon": "courses"
+  },
+  {
+    "id": "etsy",
+    "label": "Etsy",
+    "url": "",
+    "icon": "shop"
+  },
+  {
+    "id": "amazon-kdp",
+    "label": "Amazon KDP Books",
+    "url": "",
+    "icon": "book"
+  },
+  {
+    "id": "website",
+    "label": "Website",
+    "url": "",
+    "icon": "globe"
+  },
+  {
+    "id": "classroom",
+    "label": "Google Classroom",
+    "url": "",
+    "icon": "classroom"
+  },
+  {
+    "id": "newsletter",
+    "label": "Newsletter (Brevo)",
+    "url": "",
+    "icon": "newsletter"
+  }
+]
