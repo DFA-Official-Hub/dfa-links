@@ -1,10 +1,9 @@
 [
   {
     "id": "courses",
-    "label": "Courses & Fees – Enroll on WhatsApp",
+    "label": "Courses – Enroll on WhatsApp",
     "url": "https://wa.me/923182166443?text=Assalam%20o%20Alaikum%21%20I%20want%20to%20enroll%20in%20a%20German%20course%20at%20Deutsch%20F%C3%BCr%20Alle.",
-    "icon": "courses",
-    "note": "A1 Crash (1 month) – 15,000 PKR\nA1 Super Intensive (1.5 months) – 18,000 PKR\nA1 Normal Track (2 months) – 25,000 PKR\nA2 (2–2.5 months) – 30,000 PKR\nA1+A2 Combined (3–3.5 months) – 40,000 PKR"
+    "icon": "courses"
   },
   {
     "id": "instagram",
