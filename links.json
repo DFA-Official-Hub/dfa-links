@@ -6,6 +6,18 @@
     "icon": "courses"
   },
   {
+    "id": "starter-pack",
+    "label": "Free A1 Starter Pack (PDF)",
+    "url": "https://deutschfur.gumroad.com/l/tfrqgx",
+    "icon": "book"
+  },
+  {
+    "id": "workbook",
+    "label": "A1 Workbook",
+    "url": "https://deutschfur.gumroad.com/l/zoulu",
+    "icon": "book"
+  },
+  {
     "id": "instagram",
     "label": "Instagram",
     "url": "https://instagram.com/deutschfuraalle",
@@ -84,12 +96,6 @@
     "icon": "email"
   },
   {
-    "id": "workbook",
-    "label": "Free A1 Workbook",
-    "url": "",
-    "icon": "book"
-  },
-  {
     "id": "shop",
     "label": "Shop (Gumroad)",
     "url": "",
@@ -116,7 +122,7 @@
   {
     "id": "website",
     "label": "Website",
-    "url": "",
+    "url": "https://www.deutschfuralle.com/",
     "icon": "globe"
   },
   {
