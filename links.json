@@ -6,16 +6,31 @@
     "icon": "courses"
   },
   {
-    "id": "starter-pack",
-    "label": "Free A1 Starter Pack (PDF)",
-    "url": "https://deutschfur.gumroad.com/l/tfrqgx",
-    "icon": "book"
-  },
-  {
-    "id": "workbook",
-    "label": "A1 Workbook",
-    "url": "https://deutschfur.gumroad.com/l/zoulu",
-    "icon": "book"
+    "id": "books",
+    "label": "Books & Workbooks",
+    "icon": "book",
+    "children": [
+      {
+        "label": "Amazon – A1 Workbook (Black & White)",
+        "url": "https://www.amazon.com/dp/B0HNHL4PJW"
+      },
+      {
+        "label": "Amazon – A1 Workbook (Colour)",
+        "url": "https://www.amazon.com/dp/B0HNHL3T3R"
+      },
+      {
+        "label": "Etsy – A1 Workbook (PDF)",
+        "url": "https://www.etsy.com/listing/4596963198"
+      },
+      {
+        "label": "Gumroad – A1 Workbook (PDF)",
+        "url": "https://deutschfur.gumroad.com/l/zoulu"
+      },
+      {
+        "label": "Free A1 Starter Pack (PDF)",
+        "url": "https://deutschfur.gumroad.com/l/tfrqgx"
+      }
+    ]
   },
   {
     "id": "instagram",
@@ -38,8 +53,17 @@
   {
     "id": "youtube",
     "label": "YouTube",
-    "url": "https://www.youtube.com/@deutschfuraalle",
-    "icon": "youtube"
+    "icon": "youtube",
+    "children": [
+      {
+        "label": "Deutsch Für Alle – Main channel",
+        "url": "https://www.youtube.com/@deutschfuraalle"
+      },
+      {
+        "label": "Deutsch Für Alle Kids",
+        "url": "https://www.youtube.com/@DeutschF%C3%BCrAlleKids"
+      }
+    ]
   },
   {
     "id": "facebook",
@@ -145,18 +169,6 @@
     "label": "Udemy Course",
     "url": "",
     "icon": "courses"
-  },
-  {
-    "id": "etsy",
-    "label": "Etsy",
-    "url": "",
-    "icon": "shop"
-  },
-  {
-    "id": "amazon-kdp",
-    "label": "Amazon KDP Books",
-    "url": "",
-    "icon": "book"
   },
   {
     "id": "website",
