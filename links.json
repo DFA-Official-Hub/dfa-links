@@ -60,16 +60,55 @@
     "icon": "linkedin"
   },
   {
-    "id": "spotify",
-    "label": "Podcast: German Listening Practice",
-    "url": "https://open.spotify.com/show/5xTb3cZ3NrMYcgXjouiiQA",
-    "icon": "spotify"
-  },
-  {
-    "id": "apple-podcasts",
-    "label": "Apple Podcasts",
-    "url": "https://podcasts.apple.com/us/podcast/deutsch-f%C3%BCr-alle-german-listening-practice/id6821308442",
-    "icon": "apple-podcasts"
+    "id": "podcast",
+    "label": "Podcast",
+    "icon": "podcast",
+    "children": [
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/show/5xTb3cZ3NrMYcgXjouiiQA"
+      },
+      {
+        "label": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/us/podcast/deutsch-f%C3%BCr-alle-german-listening-practice/id6821308442"
+      },
+      {
+        "label": "Castbox",
+        "url": "https://castbox.fm/channel/id7447543"
+      },
+      {
+        "label": "Deezer",
+        "url": "https://www.deezer.com/show/1003655852"
+      },
+      {
+        "label": "Pocket Casts",
+        "url": "https://pca.st/itunes/6821308442"
+      },
+      {
+        "label": "Podcast Addict",
+        "url": "https://podcastaddict.com/podcast/deutsch-fur-alle-german-listening-practice/7307090"
+      },
+      {
+        "label": "Player FM",
+        "url": "https://player.fm/series/deutsch-fur-alle-german-listening-practice"
+      },
+      {
+        "label": "Podchaser",
+        "url": "https://www.podchaser.com/podcasts/deutsch-fur-alle-german-listen-6639428"
+      },
+      {
+        "label": "Podcast Index",
+        "url": "https://podcastindex.org/podcast/8067704"
+      },
+      {
+        "label": "Podfriend",
+        "url": "https://podfriend.com/podcast/deutsch-fr-alle-german-listening-practice"
+      },
+      {
+        "label": "TuneIn",
+        "url": "https://tunein.com/radio/p4856325"
+      }
+    ]
   },
   {
     "id": "amazon-music",

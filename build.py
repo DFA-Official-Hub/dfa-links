@@ -7,6 +7,13 @@ icons = json.loads((root/'assets/icons.json').read_text())
 e = lambda s: html.escape(str(s), quote=True)
 out = []
 for l in links:
+    if l.get('children'):
+        kids = [c for c in l['children'] if (c.get('url') or '').strip()]
+        if not kids:
+            continue
+        rows = ''.join(f'<li><a href="{e(c["url"].strip())}" target="_blank" rel="noopener">{e(c["label"])}</a></li>' for c in kids)
+        out.append(f'<li><details class="group" data-id="{e(l["id"])}"><summary class="btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="{e(icons.get(l["icon"], ""))}"/></svg><span class="lbl">{e(l["label"])}</span><span class="arr">›</span></summary><ul class="sublinks">{rows}</ul></details></li>')
+        continue
     url = (l.get('url') or '').strip()
     if not url:
         continue
