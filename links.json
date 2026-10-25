@@ -159,6 +159,12 @@
     "icon": "email"
   },
   {
+    "id": "careers",
+    "label": "Careers / Jobs",
+    "url": "https://www.deutschfuralle.com/careers.html",
+    "icon": "email"
+  },
+  {
     "id": "shop",
     "label": "Shop (Gumroad)",
     "url": "",
