@@ -72,7 +72,17 @@
   "id": "a1-starter-pack",
   "label": "Free A1 Starter Pack (download)",
   "url": "https://deutschfur.gumroad.com/l/tfrqgx",
-  "icon": "book"
+  "icon": "book",
+  "click": "gumroad-a1-starter-pack",
+  "clickTitle": "Free A1 Starter Pack on Gumroad"
+ },
+ {
+  "id": "amazon-books",
+  "label": "Our books on Amazon",
+  "url": "https://www.amazon.com/stores/Ali-Siddique/author/B0HNV368NN",
+  "icon": "book",
+  "click": "amazon-author-page",
+  "clickTitle": "Our books on Amazon (author page)"
  },
  {
   "id": "instagram",

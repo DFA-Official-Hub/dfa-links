@@ -26,7 +26,8 @@ for l in links:
             rows.append(f'<li>{e(a)}' + (f'<b>{e(b)}</b>' if b else '') + '</li>')
         note = '<ul class="note">' + ''.join(rows) + '</ul>'
     feat = ' feat' if l.get('note') else ''
-    out.append(f'<li><a class="btn{feat}" data-id="{e(l["id"])}" href="{e(url)}"{ext}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="{e(icons.get(l["icon"], ""))}"/></svg><span class="lbl">{e(l["label"])}</span><span class="arr">›</span>{note}</a></li>')
+    gc = f' data-goatcounter-click="{e(l["click"])}" data-goatcounter-title="{e(l.get("clickTitle", l["label"]))}"' if l.get('click') else ''
+    out.append(f'<li><a class="btn{feat}" data-id="{e(l["id"])}" href="{e(url)}"{ext}{gc}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="{e(icons.get(l["icon"], ""))}"/></svg><span class="lbl">{e(l["label"])}</span><span class="arr">›</span>{note}</a></li>')
 p = root/'index.html'
 h = p.read_text()
 h = re.sub(r'<!-- PRERENDER:START -->.*?<!-- PRERENDER:END -->',
