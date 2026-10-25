@@ -1,203 +1,233 @@
 [
-  {
-    "id": "courses",
-    "label": "Courses – Enroll on WhatsApp",
-    "url": "https://wa.me/923182166443?text=Assalam%20o%20Alaikum%21%20I%20want%20to%20enroll%20in%20a%20German%20course%20at%20Deutsch%20F%C3%BCr%20Alle.",
-    "icon": "courses"
-  },
-  {
-    "id": "books",
-    "label": "Books & Workbooks",
-    "icon": "book",
-    "children": [
-      {
-        "label": "Amazon – A1 Workbook (Black & White)",
-        "url": "https://www.amazon.com/dp/B0HNHL4PJW"
-      },
-      {
-        "label": "Amazon – A1 Workbook (Colour)",
-        "url": "https://www.amazon.com/dp/B0HNHL3T3R"
-      },
-      {
-        "label": "Etsy – A1 Workbook (PDF)",
-        "url": "https://www.etsy.com/listing/4596963198"
-      },
-      {
-        "label": "Gumroad – A1 Workbook (PDF)",
-        "url": "https://deutschfur.gumroad.com/l/zoulu"
-      },
-      {
-        "label": "Free A1 Starter Pack (PDF)",
-        "url": "https://deutschfur.gumroad.com/l/tfrqgx"
-      }
-    ]
-  },
-  {
-    "id": "kids-books",
-    "label": "Kids Books",
-    "url": "https://www.deutschfuralle.com/kids-books.html",
-    "icon": "book"
-  },
-  {
-    "id": "instagram",
-    "label": "Instagram",
-    "url": "https://instagram.com/deutschfuraalle",
-    "icon": "instagram"
-  },
-  {
-    "id": "threads",
-    "label": "Threads",
-    "url": "https://www.threads.net/@deutschfuraalle",
-    "icon": "threads"
-  },
-  {
-    "id": "tiktok",
-    "label": "TikTok",
-    "url": "https://www.tiktok.com/@deutschfuraalle0",
-    "icon": "tiktok"
-  },
-  {
-    "id": "youtube",
-    "label": "YouTube",
-    "icon": "youtube",
-    "children": [
-      {
-        "label": "Deutsch Für Alle – Main channel",
-        "url": "https://www.youtube.com/@deutschfuraalle"
-      },
-      {
-        "label": "Deutsch Für Alle Kids",
-        "url": "https://www.youtube.com/@DeutschF%C3%BCrAlleKids"
-      }
-    ]
-  },
-  {
-    "id": "facebook",
-    "label": "Facebook",
-    "url": "https://www.facebook.com/profile.php?id=61561997951415",
-    "icon": "facebook"
-  },
-  {
-    "id": "pinterest",
-    "label": "Pinterest",
-    "url": "https://www.pinterest.com/deutschfuraalle",
-    "icon": "pinterest"
-  },
-  {
-    "id": "linkedin",
-    "label": "LinkedIn",
-    "url": "https://www.linkedin.com/company/deutsch-f%C3%BCr-alle",
-    "icon": "linkedin"
-  },
-  {
-    "id": "podcast",
-    "label": "Podcast",
-    "icon": "podcast",
-    "children": [
-      {
-        "label": "Spotify",
-        "url": "https://open.spotify.com/show/5xTb3cZ3NrMYcgXjouiiQA"
-      },
-      {
-        "label": "Apple Podcasts",
-        "url": "https://podcasts.apple.com/us/podcast/deutsch-f%C3%BCr-alle-german-listening-practice/id6821308442"
-      },
-      {
-        "label": "Castbox",
-        "url": "https://castbox.fm/channel/id7447543"
-      },
-      {
-        "label": "Deezer",
-        "url": "https://www.deezer.com/show/1003655852"
-      },
-      {
-        "label": "Pocket Casts",
-        "url": "https://pca.st/itunes/6821308442"
-      },
-      {
-        "label": "Podcast Addict",
-        "url": "https://podcastaddict.com/podcast/deutsch-fur-alle-german-listening-practice/7307090"
-      },
-      {
-        "label": "Player FM",
-        "url": "https://player.fm/series/deutsch-fur-alle-german-listening-practice"
-      },
-      {
-        "label": "Podchaser",
-        "url": "https://www.podchaser.com/podcasts/deutsch-fur-alle-german-listen-6639428"
-      },
-      {
-        "label": "Podcast Index",
-        "url": "https://podcastindex.org/podcast/8067704"
-      },
-      {
-        "label": "Podfriend",
-        "url": "https://podfriend.com/podcast/deutsch-fr-alle-german-listening-practice"
-      },
-      {
-        "label": "TuneIn",
-        "url": "https://tunein.com/radio/p4856325"
-      }
-    ]
-  },
-  {
-    "id": "amazon-music",
-    "label": "Amazon Music",
-    "url": "",
-    "icon": "amazon-music"
-  },
-  {
-    "id": "whatsapp",
-    "label": "WhatsApp",
-    "url": "https://wa.me/923182166443",
-    "icon": "whatsapp"
-  },
-  {
-    "id": "whatsapp-channel",
-    "label": "WhatsApp Channel",
-    "url": "https://whatsapp.com/channel/0029VarDyCEDuMRlBEUo9i2v",
-    "icon": "whatsapp"
-  },
-  {
-    "id": "email",
-    "label": "Email us",
-    "url": "mailto:contact.deutschfuralle@gmail.com",
-    "icon": "email"
-  },
-  {
-    "id": "careers",
-    "label": "Careers / Jobs",
-    "url": "https://www.deutschfuralle.com/careers.html",
-    "icon": "email"
-  },
-  {
-    "id": "shop",
-    "label": "Shop (Gumroad)",
-    "url": "",
-    "icon": "shop"
-  },
-  {
-    "id": "udemy",
-    "label": "Udemy Course",
-    "url": "",
-    "icon": "courses"
-  },
-  {
-    "id": "website",
-    "label": "Website",
-    "url": "https://www.deutschfuralle.com/",
-    "icon": "globe"
-  },
-  {
-    "id": "classroom",
-    "label": "Google Classroom",
-    "url": "",
-    "icon": "classroom"
-  },
-  {
-    "id": "newsletter",
-    "label": "Newsletter (Brevo)",
-    "url": "",
-    "icon": "newsletter"
-  }
+ {
+  "id": "courses",
+  "label": "Courses – Enroll on WhatsApp",
+  "url": "https://wa.me/923182166443?text=Assalam%20o%20Alaikum%21%20I%20want%20to%20enroll%20in%20a%20German%20course%20at%20Deutsch%20F%C3%BCr%20Alle.",
+  "icon": "courses"
+ },
+ {
+  "id": "books",
+  "label": "Books",
+  "icon": "book",
+  "children": [
+   {
+    "label": "Kids – Activity Books",
+    "url": "https://www.deutschfuralle.com/books.html#kids-activity"
+   },
+   {
+    "label": "Kids – Education Books",
+    "url": "https://www.deutschfuralle.com/books.html#kids-education"
+   },
+   {
+    "label": "Kids – Language Books",
+    "url": "https://www.deutschfuralle.com/books.html#kids-language"
+   },
+   {
+    "label": "Middle Age",
+    "url": "https://www.deutschfuralle.com/books.html#middle"
+   },
+   {
+    "label": "Adults – A1",
+    "url": "https://www.deutschfuralle.com/books.html#a1"
+   },
+   {
+    "label": "Adults – A2",
+    "url": "https://www.deutschfuralle.com/books.html#a2"
+   },
+   {
+    "label": "Adults – B1",
+    "url": "https://www.deutschfuralle.com/books.html#b1"
+   },
+   {
+    "label": "Adults – B2",
+    "url": "https://www.deutschfuralle.com/books.html#b2"
+   },
+   {
+    "label": "Adults – C1",
+    "url": "https://www.deutschfuralle.com/books.html#c1"
+   },
+   {
+    "label": "Adults – C2",
+    "url": "https://www.deutschfuralle.com/books.html#c2"
+   },
+   {
+    "label": "Exam Prep",
+    "url": "https://www.deutschfuralle.com/books.html#exam-prep"
+   },
+   {
+    "label": "Grammar & Vocabulary",
+    "url": "https://www.deutschfuralle.com/books.html#grammar-vocab"
+   },
+   {
+    "label": "Study & Work in Germany",
+    "url": "https://www.deutschfuralle.com/books.html#study-work"
+   },
+   {
+    "label": "Teachers' Resources",
+    "url": "https://www.deutschfuralle.com/books.html#teachers"
+   }
+  ]
+ },
+ {
+  "id": "instagram",
+  "label": "Instagram",
+  "url": "https://instagram.com/deutschfuraalle",
+  "icon": "instagram"
+ },
+ {
+  "id": "threads",
+  "label": "Threads",
+  "url": "https://www.threads.net/@deutschfuraalle",
+  "icon": "threads"
+ },
+ {
+  "id": "tiktok",
+  "label": "TikTok",
+  "url": "https://www.tiktok.com/@deutschfuraalle0",
+  "icon": "tiktok"
+ },
+ {
+  "id": "youtube",
+  "label": "YouTube",
+  "icon": "youtube",
+  "children": [
+   {
+    "label": "Deutsch Für Alle – Main channel",
+    "url": "https://www.youtube.com/@deutschfuraalle"
+   },
+   {
+    "label": "Deutsch Für Alle Kids",
+    "url": "https://www.youtube.com/@DeutschF%C3%BCrAlleKids"
+   }
+  ]
+ },
+ {
+  "id": "facebook",
+  "label": "Facebook",
+  "url": "https://www.facebook.com/profile.php?id=61561997951415",
+  "icon": "facebook"
+ },
+ {
+  "id": "pinterest",
+  "label": "Pinterest",
+  "url": "https://www.pinterest.com/deutschfuraalle",
+  "icon": "pinterest"
+ },
+ {
+  "id": "linkedin",
+  "label": "LinkedIn",
+  "url": "https://www.linkedin.com/company/deutsch-f%C3%BCr-alle",
+  "icon": "linkedin"
+ },
+ {
+  "id": "podcast",
+  "label": "Podcast",
+  "icon": "podcast",
+  "children": [
+   {
+    "label": "Spotify",
+    "url": "https://open.spotify.com/show/5xTb3cZ3NrMYcgXjouiiQA"
+   },
+   {
+    "label": "Apple Podcasts",
+    "url": "https://podcasts.apple.com/us/podcast/deutsch-f%C3%BCr-alle-german-listening-practice/id6821308442"
+   },
+   {
+    "label": "Castbox",
+    "url": "https://castbox.fm/channel/id7447543"
+   },
+   {
+    "label": "Deezer",
+    "url": "https://www.deezer.com/show/1003655852"
+   },
+   {
+    "label": "Pocket Casts",
+    "url": "https://pca.st/itunes/6821308442"
+   },
+   {
+    "label": "Podcast Addict",
+    "url": "https://podcastaddict.com/podcast/deutsch-fur-alle-german-listening-practice/7307090"
+   },
+   {
+    "label": "Player FM",
+    "url": "https://player.fm/series/deutsch-fur-alle-german-listening-practice"
+   },
+   {
+    "label": "Podchaser",
+    "url": "https://www.podchaser.com/podcasts/deutsch-fur-alle-german-listen-6639428"
+   },
+   {
+    "label": "Podcast Index",
+    "url": "https://podcastindex.org/podcast/8067704"
+   },
+   {
+    "label": "Podfriend",
+    "url": "https://podfriend.com/podcast/deutsch-fr-alle-german-listening-practice"
+   },
+   {
+    "label": "TuneIn",
+    "url": "https://tunein.com/radio/p4856325"
+   }
+  ]
+ },
+ {
+  "id": "amazon-music",
+  "label": "Amazon Music",
+  "url": "",
+  "icon": "amazon-music"
+ },
+ {
+  "id": "whatsapp",
+  "label": "WhatsApp",
+  "url": "https://wa.me/923182166443",
+  "icon": "whatsapp"
+ },
+ {
+  "id": "whatsapp-channel",
+  "label": "WhatsApp Channel",
+  "url": "https://whatsapp.com/channel/0029VarDyCEDuMRlBEUo9i2v",
+  "icon": "whatsapp"
+ },
+ {
+  "id": "email",
+  "label": "Email us",
+  "url": "mailto:contact.deutschfuralle@gmail.com",
+  "icon": "email"
+ },
+ {
+  "id": "careers",
+  "label": "Careers / Jobs",
+  "url": "https://www.deutschfuralle.com/careers.html",
+  "icon": "email"
+ },
+ {
+  "id": "shop",
+  "label": "Shop (Gumroad)",
+  "url": "",
+  "icon": "shop"
+ },
+ {
+  "id": "udemy",
+  "label": "Udemy Course",
+  "url": "",
+  "icon": "courses"
+ },
+ {
+  "id": "website",
+  "label": "Website",
+  "url": "https://www.deutschfuralle.com/",
+  "icon": "globe"
+ },
+ {
+  "id": "classroom",
+  "label": "Google Classroom",
+  "url": "",
+  "icon": "classroom"
+ },
+ {
+  "id": "newsletter",
+  "label": "Newsletter (Brevo)",
+  "url": "",
+  "icon": "newsletter"
+ }
 ]
