@@ -33,6 +33,12 @@
     ]
   },
   {
+    "id": "kids-books",
+    "label": "Kids Books",
+    "url": "https://www.deutschfuralle.com/kids-books.html",
+    "icon": "book"
+  },
+  {
     "id": "instagram",
     "label": "Instagram",
     "url": "https://instagram.com/deutschfuraalle",
