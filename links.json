@@ -6,6 +6,14 @@
   "icon": "courses"
  },
  {
+  "id": "reviews",
+  "label": "Reviews & Results",
+  "url": "https://www.deutschfuralle.com/reviews.html",
+  "icon": "star",
+  "click": "reviews-results",
+  "clickTitle": "Reviews & Results page"
+ },
+ {
   "id": "books",
   "label": "Books",
   "icon": "book",
