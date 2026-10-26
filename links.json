@@ -14,6 +14,14 @@
   "clickTitle": "Reviews & Results page"
  },
  {
+  "id": "exam-prep",
+  "label": "Exam Prep – free A1 mock test",
+  "url": "https://www.deutschfuralle.com/exam-prep.html",
+  "icon": "classroom",
+  "click": "exam-prep",
+  "clickTitle": "Exam Prep page"
+ },
+ {
   "id": "books",
   "label": "Books",
   "icon": "book",
