@@ -31,6 +31,12 @@
     "url": "https://www.deutschfuralle.com/books.html#kids-language"
    },
    {
+    "label": "Kids – Free Mini Books",
+    "url": "https://deutschfur.gumroad.com/l/rbvhw",
+    "click": "free-kids-mini-books",
+    "clickTitle": "Free German Mini Books for Kids (10 PDFs) on Gumroad"
+   },
+   {
     "label": "Middle Age",
     "url": "https://www.deutschfuralle.com/books.html#middle"
    },
@@ -83,6 +89,14 @@
   "icon": "book",
   "click": "gumroad-a1-starter-pack",
   "clickTitle": "Free A1 Starter Pack on Gumroad"
+ },
+ {
+  "id": "free-kids-mini-books",
+  "label": "Free Kids Mini Books (10 PDFs)",
+  "url": "https://deutschfur.gumroad.com/l/rbvhw",
+  "icon": "book",
+  "click": "free-kids-mini-books",
+  "clickTitle": "Free German Mini Books for Kids (10 PDFs) on Gumroad"
  },
  {
   "id": "amazon-books",
