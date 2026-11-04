@@ -2,6 +2,19 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);
+try{var c=JSON.parse(localStorage.getItem('dfa-consent')||'null');if(c&&c.v===1&&c.s==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}
+(function(){var h=location.hostname,d=false;try{if(/[?&]dfa_debug=1(&|$)/.test(location.search))sessionStorage.setItem('dfa-debug','1');d=sessionStorage.getItem('dfa-debug')==='1'}catch(e){}
+window.DFA_DEBUG=d;window.DFA_LIVE=/(^|\.)deutschfuralle\.com$/.test(h)||(h==='dfa-official-hub.github.io'&&/^\/dfa-links(\/|$)/.test(location.pathname));
+if(!window.DFA_LIVE&&!d)window['ga-disable-G-L3X22MD03E']=true;})();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3X22MD03E"></script>
+<script>gtag('js',new Date());gtag('config','G-L3X22MD03E',window.DFA_DEBUG?{debug_mode:true}:{});</script>
+<script src="assets/dfa-consent.js?v=1" defer></script>
+<script src="assets/dfa-track.js?v=1" defer></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Deutsch Für Alle (DFA) – Links</title>
 <meta name="description" content="Deutsch Für Alle – German institute. Learn German A1–C2. All our links: social media, podcast and WhatsApp.">
@@ -61,6 +74,13 @@ details.group[open] summary.btn .arr{transform:rotate(90deg)}
 @media (max-width:360px){.sublinks{display:grid;margin-top:0;grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.btn,summary.btn .arr{transition:none}}
 </style>
+<style>
+#dfa-cc{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:9999;max-width:640px;margin:auto;background:#fff;color:#111;border:1px solid #ddd;border-radius:12px;padding:1rem;box-shadow:0 6px 24px rgba(0,0,0,.15)}
+#dfa-cc .dfa-cc-btns{display:flex;gap:.5rem;justify-content:flex-end}#dfa-cc .btn{min-width:7rem}
+#dfa-cc p{margin:0 0 .75rem;line-height:1.5;text-align:left}#dfa-cc a{color:#0b6b2e}
+#dfa-cc .btn{display:inline-block;margin:0;padding:10px 16px;border-radius:10px;background:#fff;color:#111;border:1.5px solid #111;font:inherit;font-weight:700;cursor:pointer}
+#dfa-cc .btn:focus-visible{outline:2px solid #0b6b2e;outline-offset:2px}
+</style>
 </head>
 <body>
 <main>
@@ -99,12 +119,16 @@ document.getElementById('y').textContent=new Date().getFullYear();
 </script>
 <script>
 (async()=>{try{const[L,I]=await Promise.all([fetch('links.json',{cache:'no-cache'}).then(r=>r.json()),fetch('assets/icons.json').then(r=>r.json())]);
+const inQ=new URLSearchParams(location.search);
+const tag=u=>{try{const x=new URL(u);if(!/deutschfuralle\.com$/.test(x.hostname))return u;
+  x.searchParams.set('utm_source',inQ.get('utm_source')||'links-hub');x.searchParams.set('utm_medium',inQ.get('utm_medium')||'referral');
+  x.searchParams.set('utm_campaign',inQ.get('utm_campaign')||'bio');x.searchParams.set('utm_content',(inQ.get('utm_content')?inQ.get('utm_content')+'-':'')+'hub');return x.toString();}catch(e){return u}};
 const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 document.getElementById('links').innerHTML=L.map(l=>{if(l.children){const k=l.children.filter(c=>c.url&&c.url.trim());if(!k.length)return'';
-return `<li><details class="group" data-id="${e(l.id)}"><summary class="btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${e(I[l.icon]||'')}"/></svg><span class="lbl">${e(l.label)}</span><span class="arr">›</span></summary><ul class="sublinks">${k.map(c=>`<li><a href="${e(c.url.trim())}" target="_blank" rel="noopener"${c.click?` data-goatcounter-click="${e(c.click)}" data-goatcounter-title="${e(c.clickTitle||c.label)}"`:''}>${e(c.label)}</a></li>`).join('')}</ul></details></li>`}
+return `<li><details class="group" data-id="${e(l.id)}"><summary class="btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${e(I[l.icon]||'')}"/></svg><span class="lbl">${e(l.label)}</span><span class="arr">›</span></summary><ul class="sublinks">${k.map(c=>`<li><a href="${e(tag(c.url.trim()))}" target="_blank" rel="noopener"${c.click?` data-goatcounter-click="${e(c.click)}" data-goatcounter-title="${e(c.clickTitle||c.label)}"`:''}>${e(c.label)}</a></li>`).join('')}</ul></details></li>`}
 if(!(l.url&&l.url.trim()))return'';const ext=!l.url.startsWith('mailto:');
 const note=l.note?'<ul class="note">'+l.note.split('\n').map(x=>{const[a,b]=x.split(' – ');return '<li>'+e(a)+(b?'<b>'+e(b)+'</b>':'')+'</li>'}).join('')+'</ul>':'';
-return `<li><a class="btn${l.note?' feat':''}" data-id="${e(l.id)}" href="${e(l.url)}"${ext?' target="_blank" rel="noopener"':''}${l.click?` data-goatcounter-click="${e(l.click)}" data-goatcounter-title="${e(l.clickTitle||l.label)}"`:''}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${e(I[l.icon]||'')}"/></svg><span class="lbl">${e(l.label)}</span><span class="arr">›</span>${note}</a></li>`}).join('');window.goatcounter&&goatcounter.bind_events&&goatcounter.bind_events()}catch(err){/* keep prerendered fallback */}})();
+return `<li><a class="btn${l.note?' feat':''}" data-id="${e(l.id)}" href="${e(tag(l.url))}"${ext?' target="_blank" rel="noopener"':''}${l.click?` data-goatcounter-click="${e(l.click)}" data-goatcounter-title="${e(l.clickTitle||l.label)}"`:''}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${e(I[l.icon]||'')}"/></svg><span class="lbl">${e(l.label)}</span><span class="arr">›</span>${note}</a></li>`}).join('');window.goatcounter&&goatcounter.bind_events&&goatcounter.bind_events()}catch(err){/* keep prerendered fallback */}})();
 </script>
 <script data-goatcounter="https://deutschfuralle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body>
 </html>
